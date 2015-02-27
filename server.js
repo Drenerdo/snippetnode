@@ -37,7 +37,7 @@ app.use(flash());
 var initPassport = require('./passport/init');
 initPassport(passport);
 
-var routes = require('./routes/index')(passport);
+var routes = require('./routes/router')(passport);
 app.use('/', routes);
 
 // Catching 404 errors

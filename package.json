@@ -17,6 +17,7 @@
     "passport-local": "*",
     "mongoose": "*",
     "express-session": "*",
-    "connect-flash": "*"
+    "connect-flash": "*",
+    "bcrypt-nodejs": "*"
   }
 }
